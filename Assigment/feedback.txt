@@ -1,0 +1,22 @@
+Strong points:
+- Clear and well written.
+- The report is complete.
+
+Suggestions and questions to address:
+- Statistics and plot should be included in the report. It is not enough to mention that you did them.
+- Please report statistics in tables, not in text.
+- Please elaborate on ""from here comes the problem of creating a recommendation system that is not a biased"". 
+What is the problem?
+- Please elaborate on how the over-rating problem can impact accuracy.
+- Please elaborate more on why user-based is a good choice.
+- You might compute the sparsity measure to better justify your claims about sparsity 
+[you are not required to so this but it might be useful to have that value].
+- Why did you choose RMSE for hyper-parameter tuning and not measures such as HR, MRR, etc.?
+- You need to briefly describe the models you implemented and their parameters. 
+For example, what is ""min_support""?
+- Elaborate on what you mean by RMSE assuming that all users give ratings in the same way.
+- Please report the RMSE scores and hyper-parameters of your models in a table, not in text.
+- Please report evaluation scores in a table, not in text.
+- Some advantages and disadvantages of Precision@k and MAP@k are wrong.
+- The reason why TopPop performs so well might be wrong.
+- Some advantages and disadvantages of user-based CF and SVD are wrong.
